@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "build-ci-flow-test-tfstate"
+    bucket = "cb-test-291818-tfstate"
     prefix = "env/dev"
   }
 }
